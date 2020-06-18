@@ -133,12 +133,12 @@ function Header() {
                   <td>
                     {" "}
                     <input type="checkbox" />
-                    <label> ⭐ ⭐ ⭐ ⭐ ⭐ </label>
+                    <label><span role = "img" aria-label="f"> ⭐ ⭐ ⭐ ⭐ ⭐ </span></label>
                     <br />
                   </td>
                   <td>
                     <input type="checkbox" />
-                    <label> ⭐ ⭐ ⭐ ⭐ </label>
+                    <label><span role = "img" aria-label="f"> ⭐ ⭐ ⭐ ⭐ </span></label>
                     <br />
                   </td>
                 </tr>
@@ -146,13 +146,13 @@ function Header() {
                   <td>
                     {" "}
                     <input type="checkbox" />
-                    <label> ⭐ ⭐ ⭐ </label>
+                    <label><span role = "img" aria-label="f"> ⭐ ⭐ ⭐ </span></label>
                     <br />
                   </td>
                   <td>
                     {" "}
                     <input type="checkbox" />
-                    <label> ⭐ ⭐ </label>
+                    <label><span role = "img" aria-label="f"> ⭐ ⭐</span> </label>
                     <br />
                   </td>
                 </tr>
@@ -214,7 +214,7 @@ function Header() {
             <RoomIcon fontSize="small" /> Tampa,USA{" "}
             <TitleIcon fontSize="small" /> Greek,English,French
           </h4>
-          <p>⭐ 4.9(120)</p>
+          <p><span role = "img" aria-label="f">⭐</span> 4.9(120)</p>
           <p className="lorenepsum">
             Sunt in culpa qui officia deserunt mollit anim id est laborum
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -261,7 +261,7 @@ function Header() {
             <RoomIcon fontSize="small" /> Tampa,USA{" "}
             <TitleIcon fontSize="small" /> Greek,English,French
           </h4>
-          <p>⭐ 4.9(120)</p>
+          <p><span role = "img" aria-label="f">⭐</span> 4.9(120)</p>
           <p className="lorenepsum">
             Sunt in culpa qui officia deserunt mollit anim id est laborum
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -308,7 +308,7 @@ function Header() {
             <RoomIcon fontSize="small" /> Tampa,USA{" "}
             <TitleIcon fontSize="small" /> Greek,English,French
           </h4>
-          <p>⭐ 4.9(120)</p>
+          <p><span role = "img" aria-label="f">⭐</span> 4.9(120)</p>
           <p className="lorenepsum">
             Sunt in culpa qui officia deserunt mollit anim id est laborum
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
